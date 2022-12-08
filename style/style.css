@@ -454,10 +454,6 @@ li {
     color: rgba(239, 91, 112, 1);
 }
 
-.filter__left[open] svg>path {
-    fill:rgba(239, 91, 112, 1);
-}
-
 summary {
     all: unset;
 }
@@ -496,4 +492,153 @@ summary {
 
 .item__list__wraper {
     margin-left: 34px;
+}
+
+/* 
+затемнение */
+/* .cards {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.item {
+    width: 263px;
+    margin: 5px;
+    overflow: hidden;
+    min-height: 281px;
+    margin-bottom: 20px;
+    outline: 1px solid grey;
+    padding-bottom: 10px;
+    position: relative;
+    transition: 0.5s;
+}
+
+.item:hover {
+    box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.15);
+}
+
+.item:hover .overlay {
+    opacity: 1;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 250px;
+    background-color: rgba(58, 56, 56, 0.83);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: 0.5s;
+
+} */
+
+.cards {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.content__items {
+    height: 582px;
+    background: #F8F8F8;
+    max-width: 360px;
+    margin-bottom: 44px;
+    position: relative;
+    transition: 0.5s;
+    /* outline: 1px solid grey; */
+    overflow: hidden;
+}
+
+.content__items:hover {
+    box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.15);
+}
+
+.content__items:hover .overlay {
+    opacity: 1;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 420px;
+    background-color: rgba(58, 56, 56, 0.83);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: 0.5s;
+
+}
+
+.textFetured {
+    width: 100%;
+    text-align: center;
+    font-family: Lato;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+
+}
+
+.textShop {
+    width: 100%;
+    text-align: center;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    margin-bottom: 52px;
+
+}
+
+.text__item {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #000000;
+    padding: 33px 0 20px 20px;
+}
+
+.text__item__description {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #5D5D5D;
+    padding: 0px 0 10px 20px;
+}
+
+.price {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F16D7F;
+    padding: 10px 0 0px 20px;
+}
+
+.btn {
+    cursor: pointer;
+    width: 143px;
+    height: 44px;
+    overflow: hidden;
+    outline: none;
+    background-color: transparent;
+    border: none;
+    background-image: url(../img/button__cart.png);
 }
