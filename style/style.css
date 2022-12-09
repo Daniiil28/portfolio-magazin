@@ -328,11 +328,6 @@ a {
 .brand__aside {
     padding-top: 28px;
 }
-
-@import "./catalog.css";
-/* CATALOG */
-
-
 .rectangle__sand {
     height: 148px;
     background: #F8F3F4;
@@ -387,6 +382,7 @@ a {
     background: #FFFFFF;
     box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
     height: 103px;
+    z-index: 3;
 }
 
 .text__brop__block {
@@ -450,7 +446,9 @@ li {
 .filter__left[open]>summary {
     color: rgba(239, 91, 112, 1);
 }
-
+.filter__left[open] svg>path {
+    fill:rgba(239, 91, 112, 1);
+}
 .filter-title[open]>summary {
     color: rgba(239, 91, 112, 1);
 }
