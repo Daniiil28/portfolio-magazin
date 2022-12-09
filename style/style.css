@@ -444,6 +444,7 @@ li {
     box-shadow: 6px 4px 35px rgb(0 0 0 / 21%);
     width: 360px;
     background: #FFFFFF;
+    z-index: 3;
 }
 
 .filter__left[open]>summary {
