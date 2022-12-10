@@ -641,3 +641,15 @@ summary {
     border: none;
     background-image: url(../img/button__cart.png);
 }
+.header__item {
+    margin-right: 33px;
+}
+
+.buttons {
+    cursor: pointer;
+    transition: all 0.7s;
+}
+
+.buttons_scale {
+    transform: scale(0.75);
+}
