@@ -653,3 +653,7 @@ summary {
 .buttons_scale {
     transform: scale(0.75);
 }
+.header-right {
+    display: flex;
+    align-items: center;
+}
