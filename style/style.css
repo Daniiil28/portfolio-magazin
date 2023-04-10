@@ -1,14 +1,4 @@
-@import "./catalog.css";
-
-* {
-    box-sizing: border-box;
-}
-
-.header-right {
-    display: flex;
-    align-items: center;
-}
-
+@import "./regisrtation.css";
 * {
     padding: 0px;
     margin: 0px;
@@ -17,12 +7,14 @@
 .header {
     background-color: black;
     padding: 20px;
+
 }
 
 .container {
     max-width: 1160px;
     margin: 0 auto;
     width: 100%;
+
 }
 
 .header__wrap {
@@ -39,13 +31,16 @@ a {
     text-decoration: none;
 }
 
+.header__item:not(:last-child) {
+    margin-right: 33px;
+}
+
 .promo {
     background: #F1E4E6;
-    height: calc(100vh - 82px);
+    height: 764px;
 }
 
 .promo__title {
-    margin-right: 100px;
     max-width: 377px;
     padding-left: 20px;
     border-left: 12px solid red;
@@ -57,6 +52,8 @@ a {
     justify-content: flex-end;
     align-items: center;
     background: url(../img/man.png) no-repeat -228px;
+
+
 }
 
 .promo__decor {
@@ -76,6 +73,7 @@ a {
 .category__items {
     width: 100%;
     height: 180px;
+
 }
 
 .category__items:not(:last-child) {
@@ -110,6 +108,7 @@ a {
     font-weight: 400;
     line-height: 36px;
     letter-spacing: 0em;
+
 }
 
 .textShop {
@@ -121,10 +120,11 @@ a {
     line-height: 17px;
     letter-spacing: 0em;
     margin-bottom: 52px;
+
 }
 
 .text__item {
-    font-family: "Lato";
+    font-family: 'Lato';
     font-style: normal;
     font-weight: 400;
     font-size: 13px;
@@ -134,7 +134,7 @@ a {
 }
 
 .text__item__description {
-    font-family: "Lato";
+    font-family: 'Lato';
     font-style: normal;
     font-weight: 300;
     font-size: 14px;
@@ -144,7 +144,7 @@ a {
 }
 
 .price {
-    font-family: "Lato";
+    font-family: 'Lato';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -159,10 +159,10 @@ a {
     font-weight: 400;
     line-height: 19px;
     letter-spacing: 0em;
-    color: rgb(242, 99, 118);
+    color: rgba(242, 99, 118, 1);
     height: 48px;
     width: 212px;
-    border: 1px solid rgb(255, 106, 106);
+    border: 1px solid rgba(255, 106, 106, 1);
     background-color: white;
     display: flex;
     justify-content: center;
@@ -170,8 +170,11 @@ a {
 }
 
 .product__content:hover {
-    background: linear-gradient(0deg, #F16D7F, #F16D7F), linear-gradient(0deg, #FF6A6A, #FF6A6A);
-    color: rgb(255, 255, 255);
+    background: linear-gradient(0deg, #F16D7F, #F16D7F),
+        linear-gradient(0deg, #FF6A6A, #FF6A6A);
+    color: rgba(255, 255, 255, 1);
+
+
 }
 
 .button {
@@ -187,7 +190,7 @@ a {
 }
 
 .footer {
-    background-color: rgb(34, 34, 36);
+    background-color: rgba(34, 34, 36, 1);
 }
 
 .footer__section {
@@ -205,7 +208,7 @@ a {
     line-height: 24px;
     letter-spacing: 0em;
     text-align: center;
-    color: rgb(251, 251, 251);
+    color: rgba(251, 251, 251, 1);
     padding-top: 40px;
 }
 
@@ -216,7 +219,7 @@ a {
     line-height: 17px;
     letter-spacing: 0em;
     text-align: center;
-    color: rgb(251, 251, 251);
+    color: rgba(251, 251, 251, 1);
     padding-top: 20px;
 }
 
@@ -239,6 +242,7 @@ a {
     letter-spacing: 0em;
     text-align: center;
     padding-top: 40px;
+
 }
 
 .information__block {
@@ -267,10 +271,11 @@ a {
     border-end-end-radius: 10px;
     border-start-start-radius: 10px;
     height: 49px;
+
 }
 
 .button_sub__span {
-    font-family: "Lato";
+    font-family: 'Lato';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -300,11 +305,11 @@ a {
 
 .block__aside {
     height: 79px;
-    background-color: rgb(34, 34, 36);
+    background-color: rgba(34, 34, 36, 1);
 }
 
 .brand {
-    font-family: "Lato";
+    font-family: 'Lato';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -324,8 +329,6 @@ a {
 .brand__aside {
     padding-top: 28px;
 }
-
-/* CATALOG */
 .rectangle__sand {
     height: 148px;
     background: #F8F3F4;
@@ -342,11 +345,11 @@ a {
 }
 
 .list__catalog__link:hover {
-    color: rgb(241, 109, 127);
+    color: rgba(241, 109, 127, 1);
 }
 
 .list__catalog__link {
-    font-family: "Lato";
+    font-family: 'Lato';
     font-style: normal;
     font-weight: 300;
     font-size: 14px;
@@ -365,7 +368,7 @@ a {
     font-family: Lato;
     font-size: 24px;
     font-weight: 400;
-    color: rgb(241, 109, 127);
+    color: rgba(241, 109, 127, 1);
 }
 
 .details-list {
@@ -380,10 +383,11 @@ a {
     background: #FFFFFF;
     box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
     height: 103px;
+    z-index: 3;
 }
 
 .text__brop__block {
-    font-family: "Lato";
+    font-family: 'Lato';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -403,6 +407,7 @@ ul {
     display: flex;
     justify-content: center;
 } */
+
 .wrap_centr_list {
     margin: 0 33px 0px 0px;
 }
@@ -412,6 +417,8 @@ li {
 }
 
 /* ФИЛЬТР */
+
+
 .catalog__trand__size {
     display: flex;
     justify-content: space-between;
@@ -431,17 +438,20 @@ li {
 
 .filter__left[open] {
     position: absolute;
-    box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
+    box-shadow: 6px 4px 35px rgb(0 0 0 / 21%);
     width: 360px;
     background: #FFFFFF;
+    z-index: 3;
 }
 
 .filter__left[open]>summary {
-    color: rgb(239, 91, 112);
+    color: rgba(239, 91, 112, 1);
 }
-
+.filter__left[open] svg>path {
+    fill:rgba(239, 91, 112, 1);
+}
 .filter-title[open]>summary {
-    color: rgb(239, 91, 112);
+    color: rgba(239, 91, 112, 1);
 }
 
 summary {
@@ -468,7 +478,7 @@ summary {
 }
 
 .filter-item {
-    font-family: "Lato";
+    font-family: 'Lato';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -477,7 +487,7 @@ summary {
 }
 
 .filter-item:hover {
-    color: rgb(239, 91, 112);
+    color: rgba(239, 91, 112, 1);
 }
 
 .item__list__wraper {
@@ -492,7 +502,6 @@ summary {
     justify-content: center;
     flex-wrap: wrap;
 }
-
 .item {
     width: 263px;
     margin: 5px;
@@ -504,15 +513,12 @@ summary {
     position: relative;
     transition: 0.5s;
 }
-
 .item:hover {
     box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.15);
 }
-
 .item:hover .overlay {
     opacity: 1;
 }
-
 .overlay {
     position: absolute;
     top: 0;
@@ -525,8 +531,8 @@ summary {
     align-items: center;
     opacity: 0;
     transition: 0.5s;
-
 } */
+
 .cards {
     display: flex;
     align-items: flex-start;
@@ -565,6 +571,7 @@ summary {
     align-items: center;
     opacity: 0;
     transition: 0.5s;
+
 }
 
 .textFetured {
@@ -575,6 +582,7 @@ summary {
     font-weight: 400;
     line-height: 36px;
     letter-spacing: 0em;
+
 }
 
 .textShop {
@@ -586,10 +594,11 @@ summary {
     line-height: 17px;
     letter-spacing: 0em;
     margin-bottom: 52px;
+
 }
 
 .text__item {
-    font-family: "Lato";
+    font-family: 'Lato';
     font-style: normal;
     font-weight: 400;
     font-size: 13px;
@@ -599,7 +608,7 @@ summary {
 }
 
 .text__item__description {
-    font-family: "Lato";
+    font-family: 'Lato';
     font-style: normal;
     font-weight: 300;
     font-size: 14px;
@@ -609,7 +618,7 @@ summary {
 }
 
 .price {
-    font-family: "Lato";
+    font-family: 'Lato';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -628,15 +637,19 @@ summary {
     border: none;
     background-image: url(../img/button__cart.png);
 }
+.header__item {
+    margin-right: 33px;
+}
 
 .buttons {
     cursor: pointer;
     transition: all 0.7s;
-    margin-right: 33px;
 }
 
 .buttons_scale {
     transform: scale(0.75);
 }
-
-/* .js-buttons:not(:last-c */
+.header-right {
+    display: flex;
+    align-items: center;
+}
