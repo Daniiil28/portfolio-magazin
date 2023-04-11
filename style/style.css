@@ -1,4 +1,5 @@
 @import "./regisrtation.css";
+
 * {
     padding: 0px;
     margin: 0px;
@@ -15,6 +16,97 @@
     margin: 0 auto;
     width: 100%;
 
+}
+
+/* бургер меню */
+.img__menu {
+    cursor: pointer;
+}
+
+/* .img__Burger { */
+/* margin-right: 30px; */
+/* } */
+
+.header__menu {
+    cursor: pointer;
+}
+
+#burger {
+    display: none;
+}
+
+#burger:checked~.header__nav {
+    display: block;
+}
+
+#burger:not(checked)~.header__nav {
+    display: none;
+}
+
+.header__menu {
+    margin-right: 30px;
+}
+
+.header__nav {
+    position: absolute;
+    top: 82px;
+    right: 0;
+    z-index: 10;
+    /* display: none; */
+}
+
+.nav {
+    width: 232px;
+    background-color: #fff;
+    height: calc(100vh - 63px);
+    padding: 20px;
+}
+
+.nav__wrap {
+    position: relative;
+}
+
+.nav__close {
+    position: absolute;
+    right: -10px;
+    top: -10px;
+    cursor: pointer;
+}
+
+.nav__heading {
+    margin-top: 24px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #F16D7F;
+}
+
+.nav__link {
+    margin-top: 11px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #6F6E6E;
+    margin-left: 10px;
+}
+
+.nav__title {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+}
+
+/* end */
+.header__right {
+    display: flex;
+    align-items: center;
 }
 
 .header__wrap {
@@ -329,6 +421,7 @@ a {
 .brand__aside {
     padding-top: 28px;
 }
+
 .rectangle__sand {
     height: 148px;
     background: #F8F3F4;
@@ -447,9 +540,11 @@ li {
 .filter__left[open]>summary {
     color: rgba(239, 91, 112, 1);
 }
+
 .filter__left[open] svg>path {
-    fill:rgba(239, 91, 112, 1);
+    fill: rgba(239, 91, 112, 1);
 }
+
 .filter-title[open]>summary {
     color: rgba(239, 91, 112, 1);
 }
@@ -637,6 +732,7 @@ summary {
     border: none;
     background-image: url(../img/button__cart.png);
 }
+
 .header__item {
     margin-right: 33px;
 }
@@ -649,7 +745,10 @@ summary {
 .buttons_scale {
     transform: scale(0.75);
 }
+
 .header-right {
     display: flex;
     align-items: center;
 }
+
+/* подключение меню */
