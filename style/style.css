@@ -133,6 +133,7 @@ a {
 }
 
 .promo__title {
+    margin-right: 100px;
     max-width: 377px;
     padding-left: 20px;
     border-left: 12px solid red;
